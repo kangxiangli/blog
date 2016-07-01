@@ -1,0 +1,739 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    position: relative;
+    height: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center 84px;
+    /*box-shadow: 0px 0px 100px #000 inset;*/
+}
+
+/*.nav{*/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/*left: 0;*/
+/*z-index: 20;*/
+/*}*/
+.W1349 {
+    z-index: 10000;
+    width: 1349px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    clear: both;
+    background-color: black;
+    border-bottom: 3px solid #666666;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.nav {
+    width: 100%;
+    /*height: 84px;*/
+
+    clear: both;
+}
+
+.content {
+    clear: both;
+    width: 1230px;
+    height: 80px;
+
+    margin: 0 auto;
+}
+
+.content .logo {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+
+.nav .content .header {
+    width: 850px;
+    height: 80px;
+    float: right;
+
+}
+
+.content .header ul {
+    position: absolute;
+    left: 534px;
+    height: 80px;
+    width: 600px;
+    float: left;
+    top: 4px;
+    /*background: #f0ad4e*/
+}
+
+.content .header ul li {
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    /*background: darkmagenta;*/
+    padding-left: 16px;
+}
+
+.content .header ul li a {
+    display: block;
+    color: #FFFFFF;
+    width: 100px;
+    height: 76px;
+    line-height: 80px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    text-align: center;
+}
+
+.content .header .phone {
+    float: left;
+    position: absolute;
+    top: 25px;
+    right: 66px;
+
+}
+
+.content .header ul li a:hover {
+    cursor: pointer;
+    border-bottom: 4px solid red;
+
+}
+
+/*导航结束*/
+.banner {
+    clear: both;
+    padding-top: 84px;
+    width: 1347px;
+    overflow: hidden;
+    margin-bottom: 57px;
+
+}
+
+.banner_a {
+    margin: -1px;
+}
+
+.banner_a img {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/*banner图结束*/
+.banner {
+
+    margin-bottom: -4px;
+
+}
+
+.contact {
+
+    height: 32px;
+    background: #2e2e2e;
+    margin-bottom: 38px;
+}
+
+.contact .content {
+    clear: both;
+    width: 1230px;
+    height: auto;
+
+}
+
+.sub {
+    width: 1280px;
+    height: 564px;
+    padding-left: 70px;
+
+}
+
+.contact1 .content {
+    clear: both;
+    width: 1230px;
+    height: 250px;
+    margin: auto;
+}
+
+.content_a {
+    text-align: right;
+    line-height: 32px;
+    color: #7c7c7c;
+    font-family: "Microsoft YaHei";
+    padding-right: 23px;
+}
+
+.content_t img {
+    text-align: left;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+
+.content_a a {
+    color: #c7c7c7;
+    font-family: "Microsoft YaHei";
+}
+
+.content_a img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.content_a a:hover {
+    color: #428bca;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact-t {
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+
+.word {
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.word h1 {
+    color: #666666;
+    line-height: 24px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 100;
+}
+
+.word p {
+    line-height: 30px;
+    color: #666666;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    text-align: left;
+}
+
+.message {
+    float: left;
+    width: 1230px;
+    height: 220px;
+    overflow: hidden;
+}
+
+form {
+    float: left;
+    width: 36%;
+    height: auto;
+    overflow: hidden;
+}
+
+.btn {
+    margin-bottom: 15px;
+    height: 30px;
+    float: left;
+    width: 167px;
+    margin-right: 25px;
+    color: #999999;
+    font-family: "Microsoft YaHei";
+}
+
+.btn1 {
+    width: 367px;
+    height: 85px;
+    border: 1px solid #cccccc;
+    line-height: 30px;
+    padding-left: 6px;
+    color: #999999;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    float: left;
+}
+
+.btn2 {
+    width: 122px;
+    height: 31px;
+    background: #ff3333;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    float: left;
+}
+
+/*banner图结束*/
+.company {
+    float: left;
+    width: 384px;
+    height: auto;
+
+}
+
+.company h1 {
+    color: #333333;
+    line-height: 24px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.company p {
+    line-height: 30px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    text-align: left;
+}
+
+.company p i {
+    display: block;
+    float: left;
+    width: 25px;
+    height: auto;
+}
+
+.company p font {
+
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.company p img {
+    margin-right: 10px;
+}
+
+/*公司信息结束*/
+
+.bank {
+    float: right;
+    width: 32%;
+    height: auto;
+}
+
+.bank h1 {
+    color: #333333;
+    line-height: 24px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.bank p {
+    line-height: 30px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    text-align: left;
+}
+
+.bank p i {
+    display: block;
+    float: left;
+    width: 25px;
+    height: auto;
+}
+
+.bank p font {
+    display: block;
+    float: left;
+    width: 85%;
+    height: auto;
+    line-height: 30px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.bank p img {
+    margin-right: 10px;
+}
+
+.bank .td {
+    line-height: 30px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.bank .td.tyu {
+    width: 25px;
+    float: left;
+}
+
+.bank p {
+    clear: both;
+}
+
+/*银行信息结束*/
+
+.nav6 {
+    clear: both;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #2e2e2e;
+    padding: 18px 0;
+}
+
+.code {
+    float: left;
+    width: 169px;
+    height: auto;
+    overflow: hidden;
+    background: url(../images/bg13.png) no-repeat right 50px margin-right : 44 px;
+}
+
+.code dd {
+    height: 29px;
+    width: 130px;
+    text-align: center;
+    color: #999999;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.code dt {
+    width: 130px;
+    height: 141px;
+}
+
+/*二维码结束*/
+.site {
+    float: left;
+    width: 380px;
+    padding-top: 19px;
+    height: 200px;
+}
+
+.site p {
+
+    line-height: 30px;
+    font-size: 10px;
+    color: #b3b3b3;
+    font-family: "Microsoft YaHei";
+    height: 30px;
+
+}
+
+.site h1 {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #b3b3b3;
+    padding: 15px 0;
+    font-weight: 100;
+}
+
+.site p img {
+
+    margin-right: -3px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+
+}
+
+/*列表部分*/
+.form {
+    float: right;
+    padding-right: 6px;
+}
+
+.form ul {
+    float: left;
+    width: 107px;
+}
+
+.form li h1 {
+    height: 50px;
+    color: #999999;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+
+}
+
+.form li {
+    line-height: 32px;
+}
+
+.form li a {
+    color: #999999;
+    font-family: "Microsoft YaHei";
+}
+
+.form ul li a:hover {
+    text-decoration: underline;
+}
+
+/*公司地址结束*/
+
+.boxEnd {
+    clear: both;
+    width: 100%;
+    height: auto;
+    background: #1e1e1e;
+    overflow: hidden;
+}
+
+.foot {
+    text-align: center;
+    line-height: 35px;
+}
+
+.foot p {
+    text-align: center;
+    line-height: 35px;
+}
+
+.foot p a {
+    color: #8f8f8f;
+    font-family: "Microsoft YaHei";
+    margin-right: 12px;
+}
+
+.foot p a:hover {
+    text-decoration: underline
+}
+
+/*一下是分享内容*/
+.boi {
+    width: 226px;
+    height: auto;
+    z-index: 88888888;
+    position: fixed;
+
+}
+
+.share {
+    height: 324px;
+    width: 226px;
+    overflow: visible;
+
+    z-index: 999999;
+}
+
+.share .share-slide-top {
+    height: 28px;
+    color: #626262;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+
+    background-color: #F6F6F6;
+}
+
+.share .share-slide-list {
+    background: #fff;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 5px 0;
+    margin: 0;
+    background: #fff;
+
+}
+
+.share .share-slide-list-ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+.share .share-slide-list-ul li {
+    float: left;
+    padding: 2px;
+    margin-left: 6px;
+    _margin-left: 3px;
+    height: 28px;
+    overflow: hidden;
+    list-style: none;
+    width: 100px;
+}
+
+.share-slide-list a, .share-slide-bottom a {
+    color: rgb(86, 86, 86);
+    display: block;
+
+    background-image: url("image/icons_0_16.png");
+    text-decoration: none;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font: 12px/18px 宋体;
+    background-repeat: no-repeat;
+    padding: 6px 0px 5px 28px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-position-y: 7px;
+
+}
+
+.slide-more {
+    border: none;
+    height: 28px;
+    color: #626262;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    background-color: #F6F6F6;
+    /*background-image: url("../images1/icons_0_16.png");*/
+    background-position: 158px 10px;
+
+}
+
+.share-slide-bottom {
+    line-height: 25px;
+    font-size: 12px;
+    text-align: right;
+    clear: both;
+    height: 30px;
+
+}
+
+.share-slide-bottom a {
+    padding: 0;
+    background-position-y: 7px;
+}
+
+.ok {
+    width: 24px;
+    height: 88px;
+    position: absolute;
+    z-index: 1000;
+    top: 115px;
+    left: 0px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition-property: left;
+    -moz-transition-property: left;
+    /*background: url("images1/l5.gif") no-repeat 0 0;*/
+
+}
+
+.boi .share {
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    position: relative;
+    left: 0px;
+    top: 58px;
+    height: 0px;
+    width: 0px;
+    /*background:#EF4900;*/
+    /*color:white;*/
+}
+
+.boi:hover .share {
+    border: 1px solid #F6F6F6;
+    border-left: none;
+    width: 226px;
+    height: 330px;
+}
+
+.boi:hover .ok {
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition-property: left;
+    -moz-transition-property: left;
+    left: 226px;
+}
+
+.leftsead {
+    width: 131px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    z-index: 999;
+}
+
+* html .leftsead {
+    margin-top: 258px;
+    position: absolute;
+    /*top: expression(eval(document.documentElement.scrollTop));*/
+}
+
+.leftsead li {
+    width: 131px;
+    height: 60px;
+}
+
+.leftsead li img {
+    float: right;
+}
+
+.leftsead li a {
+    width: 47px;
+    height: 49px;
+    float: right;
+    display: block;
+    /*min-width: 60px;*/
+    /*max-width: 131px;*/
+}
+
+.leftsead li a .shows {
+    display: block;
+}
+
+.leftsead li a .hides {
+    position: absolute;
+    cursor: pointer;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition-property: right;
+    -moz-transition-property: right;
+    right: -143px;
+}
+
+.leftsead li a.youhui .hides {
+    /*display: none;*/
+    position: absolute;
+    right: 190px;
+    top: -60px;
+}
+
+.leftsead a:hover .hides {
+    -webkit-transition-property: right;
+    -moz-transition-property: right;
+    right: 0;
+}
+
+.leftsead a:hover .shows {
+    display: none;
+}
+
+/*二维码*/
+
