@@ -225,7 +225,7 @@ html, body, .swiper-container, .swiper-slide {
 .page1 {
     background: url("../img/fm0.jpg") no-repeat;
     background-size:contain;
-    z-index: 99999;
+
 }
 
 
@@ -560,7 +560,7 @@ html, body, .swiper-container, .swiper-slide {
 
 .page2 {
     background: url("../img/04.jpg") no-repeat;
-    background-size: cover;
+    background-size:contain
     /*opacity: 0.5;*/
 
 }
@@ -734,7 +734,7 @@ background: #FFFFFF;
 /*page3 star*/
 .page3{
     background: url("../img/01.jpg") no-repeat;
-    background-size: cover;
+    background-size:contain
     position: relative;
 }
 .page3 img{
@@ -916,21 +916,21 @@ z-index: 999;
 /*page4 star*/
 .page4{
     background: url("../img/02.jpg") no-repeat;
-    background-size: cover;
+    background-size:contain
     position: relative;
 }
 
 /*square*/
 
 .square{
-    width: 3rem;
-    height: 3rem;
-    /*border:1px  rgba(255,255,255,1) solid;*/
-    /*margin: 36px auto;*/
+    width: 66%;
+    height: 4rem;
+    /* border: 1px rgba(255,255,255,1) solid; */
+    /* margin: 36px auto; */
     position: relative;
-    top:1rem;
-    left: 1.5rem;
-    background: url("../img/二维码.png") no-repeat ;
+    top: 0;
+    left: 18%;
+    background: url("../img/二维码.png") no-repeat;
     background-position: 0rem 0rem;
     background-size: cover;
 }
@@ -941,8 +941,8 @@ z-index: 999;
     content: "";
     border-radius: 50%;
     background-color: rgba(255,255,255,1);
-    top: -.6rem;
-    left: 0rem
+    top: -14%;
+    left: 0%;
     -webkit-animation: square_check 2s ease-in-out infinite;
     -moz-animation: square_check 2s ease-in-out infinite;
     animation: square_check 2s ease-in-out infinite;
@@ -970,18 +970,18 @@ z-index: 999;
     color: #FFFFFF;
 }
 .page4 >.concat span:nth-child(1){
-    top:3rem;
-    left: 1rem;
+    top: 15%;
+    left: 25%;
 }
 .page4 >.concat span:nth-child(2){
-    top:4rem;
-    left: .5rem;
-    width: 5rem;
+    top: 49%;
+    left: 15%;
+    width: 121%;
 }
 .page4 >.concat span:nth-child(3){
-    top:5rem;
-    left: .1rem;
-    width: 6rem;
+    top: 84%;
+    left: 4%;
+    width: 147%;
 }
 #page4 >.concat span:nth-child(1){
     -webkit-animation: bounceInLeft 3s 0s both;
@@ -1033,25 +1033,25 @@ z-index: 999;
 /*--以下是CSS3动画--*/
 
 @-webkit-keyframes square_check{
-    0%{left:0rem; top:-0.6rem}
-    25%{ left:3rem; top:-0.6rem;}
-    50%{ left:3rem; top:3rem;}
-    75%{ left: -.5rem; top: 3rem;}
-    100%{ left:-.5rem; top: -.5rem;}
+    0%{left:0%; top:-13%}
+    25%{ left:100%; top:-13%;}
+    50%{ left:100%; top:100%;}
+    75%{ left: -13%; top: 100%;}
+    100%{ left:-13%; top: -13%;}
 }
 @-moz-keyframes square_check{
-    0%{left:0rem; top:-0.6rem}
-    25%{ left:3rem; top:-0.6rem;}
-    50%{ left:3rem; top:3rem;}
-    75%{ left: -.5rem; top: 3rem;}
-    100%{ left:-.5rem; top: -.5rem;}
+    0%{left:0%; top:-13%}
+    25%{ left:100%; top:-13%;}
+    50%{ left:100%; top:100%;}
+    75%{ left: -13%; top: 100%;}
+    100%{ left:-13%; top: -13%;}
 }
 @keyframes square_check{
-    0%{left:0rem; top:-0.6rem}
-    25%{ left:3rem; top:-0.6rem;}
-    50%{ left:3rem; top:3rem;}
-    75%{ left: -.5rem; top: 3rem;}
-    100%{ left:-.5rem; top: -.5rem;}
+    0%{left:0%; top:-13%}
+    25%{ left:100%; top:-13%;}
+    50%{ left:100%; top:100%;}
+    75%{ left: -13%; top: 100%;}
+    100%{ left:-13%; top: -13%;}
 }
 @-webkit-keyframes bounceInLeft {
     from, 60%, 75%, 90%, to {
